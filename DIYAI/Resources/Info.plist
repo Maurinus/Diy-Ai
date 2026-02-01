@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDisplayName</key>
+  <string>DIY AI</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>NSCameraUsageDescription</key>
+  <string>We use the camera to capture a photo of the item you want to fix.</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Choose a photo from your library to diagnose the issue.</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Use your location to find nearby stores with tools and parts.</string>
+  <key>UIApplicationSceneManifest</key>
+  <dict>
+    <key>UIApplicationSupportsMultipleScenes</key>
+    <false/>
+  </dict>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>com.diyai.app</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>diyai</string>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

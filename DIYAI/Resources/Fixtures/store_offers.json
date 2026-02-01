@@ -1,0 +1,82 @@
+{
+  "localOffers": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "storeName": "BuildRight Hardware",
+      "address": "123 Main St, Cityville",
+      "distanceKm": 2.4,
+      "price": 8.99,
+      "stockStatus": "In stock",
+      "phone": "18005550101",
+      "websiteURL": "https://example.com/buildright",
+      "coordinate": { "latitude": 37.7749, "longitude": -122.4194 }
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "storeName": "Northside Tools",
+      "address": "48 Market Rd, Cityville",
+      "distanceKm": 3.9,
+      "price": 7.49,
+      "stockStatus": "Low stock",
+      "phone": "18005550102",
+      "websiteURL": "https://example.com/northside-tools",
+      "coordinate": { "latitude": 37.7812, "longitude": -122.4101 }
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "storeName": "FixHub",
+      "address": "9 Industrial Ave, Cityville",
+      "distanceKm": 5.1,
+      "price": 9.25,
+      "stockStatus": "In stock",
+      "phone": "18005550103",
+      "websiteURL": "https://example.com/fixhub",
+      "coordinate": { "latitude": 37.7681, "longitude": -122.4312 }
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "storeName": "HomeCraft",
+      "address": "201 Oak St, Cityville",
+      "distanceKm": 1.8,
+      "price": 10.15,
+      "stockStatus": "Unknown",
+      "phone": "18005550104",
+      "websiteURL": "https://example.com/homecraft",
+      "coordinate": { "latitude": 37.7763, "longitude": -122.4241 }
+    },
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "storeName": "Metro Supply",
+      "address": "77 Harbor Blvd, Cityville",
+      "distanceKm": 6.2,
+      "price": 6.95,
+      "stockStatus": "Out of stock",
+      "phone": "18005550105",
+      "websiteURL": "https://example.com/metro-supply",
+      "coordinate": { "latitude": 37.7642, "longitude": -122.4076 }
+    }
+  ],
+  "onlineOffers": [
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "sellerName": "ToolMart Online",
+      "price": 6.25,
+      "deliveryText": "Delivery in 3-5 days",
+      "url": "https://example.com/toolmart"
+    },
+    {
+      "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "sellerName": "FixFast",
+      "price": 7.10,
+      "deliveryText": "Delivery in 2-4 days",
+      "url": "https://example.com/fixfast"
+    },
+    {
+      "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "sellerName": "Prime Hardware",
+      "price": 8.40,
+      "deliveryText": "Delivery tomorrow",
+      "url": "https://example.com/prime-hardware"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "issueTitle": "Loose cabinet hinge causing door sag",
+    "confidence": 86,
+    "difficulty": "Easy",
+    "estimatedMinutes": 25,
+    "highLevelOverview": [
+      "Tighten hinge screws and inspect for stripped holes",
+      "Replace hinge or add wood filler if the screws won't hold",
+      "Realign the door to restore even gaps"
+    ],
+    "tools": [
+      { "name": "Phillips screwdriver", "quantity": 1, "mustHave": true },
+      { "name": "Wood filler", "quantity": 1, "mustHave": false },
+      { "name": "Drill with 1/8 in bit", "quantity": 1, "mustHave": false }
+    ],
+    "parts": [
+      { "name": "Cabinet hinge", "variants": ["35mm cup", "Overlay"], "notes": "Match the cup diameter and overlay style." },
+      { "name": "#6 wood screws", "variants": ["1 in", "1-1/4 in"], "notes": "Longer screws help if holes are stripped." }
+    ],
+    "steps": [
+      { "order": 1, "title": "Inspect the hinge", "detail": "Open the door and check if the hinge plate is loose or bent." },
+      { "order": 2, "title": "Tighten screws", "detail": "Tighten all hinge screws and test the door alignment." },
+      { "order": 3, "title": "Check screw holes", "detail": "If screws spin freely, remove them and inspect the holes." },
+      { "order": 4, "title": "Reinforce holes", "detail": "Add wood filler or toothpicks with glue, then let dry." },
+      { "order": 5, "title": "Re-drill pilot holes", "detail": "Drill a small pilot hole to prevent splitting." },
+      { "order": 6, "title": "Reinstall hinge", "detail": "Reattach the hinge using longer screws if needed." },
+      { "order": 7, "title": "Adjust alignment", "detail": "Use the hinge adjustment screws to align the door gaps." },
+      { "order": 8, "title": "Final check", "detail": "Open and close the door to confirm smooth movement." }
+    ],
+    "safetyChecklist": [
+      "Keep fingers clear of hinge pinch points",
+      "Wear eye protection when drilling"
+    ],
+    "commonMistakes": [
+      "Overtightening and stripping the hinge screws",
+      "Replacing the hinge without matching the overlay style"
+    ],
+    "verifyBeforeBuy": [
+      "Confirm the hinge cup diameter (typically 35mm)",
+      "Check overlay type to match the existing door"
+    ]
+  },
+  {
+    "issueTitle": "Leaky faucet handle at base",
+    "confidence": 78,
+    "difficulty": "Medium",
+    "estimatedMinutes": 40,
+    "highLevelOverview": [
+      "Shut off water and remove handle",
+      "Replace worn cartridge or O-rings",
+      "Reassemble and test for leaks"
+    ],
+    "tools": [
+      { "name": "Adjustable wrench", "quantity": 1, "mustHave": true },
+      { "name": "Allen key set", "quantity": 1, "mustHave": true },
+      { "name": "Needle-nose pliers", "quantity": 1, "mustHave": false }
+    ],
+    "parts": [
+      { "name": "Faucet cartridge", "variants": ["Ceramic", "Compression"], "notes": "Match the faucet brand and model." },
+      { "name": "O-ring set", "variants": ["Standard", "Metric"], "notes": "Bring the old O-ring to match size." }
+    ],
+    "steps": [
+      { "order": 1, "title": "Turn off water", "detail": "Shut off the hot and cold supply valves." },
+      { "order": 2, "title": "Remove handle", "detail": "Locate the set screw and remove the handle." },
+      { "order": 3, "title": "Inspect cartridge", "detail": "Check the cartridge for wear or cracks." },
+      { "order": 4, "title": "Remove cartridge", "detail": "Use pliers to pull the cartridge straight out." },
+      { "order": 5, "title": "Replace seals", "detail": "Swap O-rings and lubricate lightly." },
+      { "order": 6, "title": "Install new cartridge", "detail": "Seat the cartridge and align tabs." },
+      { "order": 7, "title": "Reassemble handle", "detail": "Reattach the handle and tighten the set screw." },
+      { "order": 8, "title": "Test", "detail": "Turn water back on and check for leaks." }
+    ],
+    "safetyChecklist": [
+      "Turn off water before disassembly",
+      "Cover the drain to avoid losing parts"
+    ],
+    "commonMistakes": [
+      "Forcing the cartridge out and damaging the housing",
+      "Not matching the cartridge model"
+    ],
+    "verifyBeforeBuy": [
+      "Confirm faucet brand and model",
+      "Match cartridge stem length and spline count"
+    ]
+  },
+  {
+    "issueTitle": "Drawer sticking and not closing fully",
+    "confidence": 82,
+    "difficulty": "Easy",
+    "estimatedMinutes": 30,
+    "highLevelOverview": [
+      "Check slides for debris or misalignment",
+      "Tighten mounting screws and adjust",
+      "Lubricate slides if needed"
+    ],
+    "tools": [
+      { "name": "Screwdriver", "quantity": 1, "mustHave": true },
+      { "name": "Bubble level", "quantity": 1, "mustHave": false },
+      { "name": "Lubricant spray", "quantity": 1, "mustHave": false }
+    ],
+    "parts": [
+      { "name": "Drawer slide set", "variants": ["Side-mount", "Soft-close"], "notes": "Match the slide length to the drawer depth." }
+    ],
+    "steps": [
+      { "order": 1, "title": "Remove drawer", "detail": "Release the slide clips and pull the drawer out." },
+      { "order": 2, "title": "Inspect slides", "detail": "Look for debris or bent rails." },
+      { "order": 3, "title": "Clean rails", "detail": "Wipe down slides and remove debris." },
+      { "order": 4, "title": "Check mounting screws", "detail": "Tighten any loose mounting screws." },
+      { "order": 5, "title": "Realign slides", "detail": "Use a level to ensure slides are parallel." },
+      { "order": 6, "title": "Lubricate", "detail": "Apply a light lubricant to the slide rails." },
+      { "order": 7, "title": "Reinstall drawer", "detail": "Align and slide the drawer back in." },
+      { "order": 8, "title": "Test operation", "detail": "Open and close fully to confirm smooth action." }
+    ],
+    "safetyChecklist": [
+      "Support the drawer to avoid drops",
+      "Keep hands clear of pinch points"
+    ],
+    "commonMistakes": [
+      "Replacing slides without matching length",
+      "Over-lubricating and attracting more debris"
+    ],
+    "verifyBeforeBuy": [
+      "Measure drawer depth for slide length",
+      "Confirm slide type (side-mount vs soft-close)"
+    ]
+  }
+]
