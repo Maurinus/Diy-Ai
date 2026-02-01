@@ -7,11 +7,11 @@ options:
   defaultConfig: Release
 settings:
   base:
-    INFOPLIST_FILE: DIYAI/Resources/Info.plist
     PRODUCT_BUNDLE_IDENTIFIER: com.diyai.app
     SWIFT_VERSION: 5.9
     DEVELOPMENT_TEAM: ""
     CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: YES
     TARGETED_DEVICE_FAMILY: "1,2"
     ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
 packages:
@@ -29,6 +29,19 @@ targets:
       - path: DIYAI/Resources
     dependencies:
       - package: Supabase
+    info:
+      path: DIYAI/Info.plist
+      properties:
+        CFBundleDisplayName: DIY AI
+        NSCameraUsageDescription: We use the camera to capture a photo of the item you want to fix.
+        NSPhotoLibraryUsageDescription: Choose a photo from your library to diagnose the issue.
+        NSLocationWhenInUseUsageDescription: Use your location to find nearby stores with tools and parts.
+        CFBundleURLTypes:
+          - CFBundleURLName: com.diyai.app
+            CFBundleURLSchemes:
+              - diyai
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
     settings:
       base:
         PRODUCT_NAME: "DIY AI"

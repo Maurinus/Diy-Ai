@@ -93,7 +93,6 @@
 		64B9F5C10A972293BBAB0C79 /* DIYAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYAIApp.swift; sourceTree = "<group>"; };
 		6943A983C64ECB14DFF1B491 /* UpgradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeView.swift; sourceTree = "<group>"; };
 		7B0F347E6A0FA15F602549FF /* MockAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAIService.swift; sourceTree = "<group>"; };
-		7DC90F038D42BDA20A0B6A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		83ABC03540B763A62033B1FF /* DiagnosisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisResult.swift; sourceTree = "<group>"; };
 		874D639874CF784922E89642 /* FindItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindItemsView.swift; sourceTree = "<group>"; };
 		8CEEDE3783C2BB11A3EF214A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		9448C013FBCDB801D96DE306 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		9A5B2A427AA11B51E6768E99 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9BB253E80B321D0817C2E1E9 /* NewFixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFixViewModel.swift; sourceTree = "<group>"; };
+		9F9D3D8C0F245127A57DFA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FD8802E51C53CC7C94098A3 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		A432DBEAB6EBDDEB0DFF4B45 /* FindItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindItemsViewModel.swift; sourceTree = "<group>"; };
 		B36FC0B9E42DD6F89F285CB5 /* AffiliateLinkBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliateLinkBuilder.swift; sourceTree = "<group>"; };
@@ -164,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				E75A63DCB915F1AC60297BD9 /* Assets.xcassets */,
-				7DC90F038D42BDA20A0B6A71 /* Info.plist */,
 				1B9FD5F0B2F8CB4AA85CC1A6 /* Fixtures */,
 			);
 			path = Resources;
@@ -207,6 +206,7 @@
 		7CA92AD82EAFB66CF8723F70 /* DIYAI */ = {
 			isa = PBXGroup;
 			children = (
+				9F9D3D8C0F245127A57DFA59 /* Info.plist */,
 				F61411C8E5F821242C8CEEF9 /* App */,
 				D7081E42A5ADE40DDC462793 /* Components */,
 				47E7A485E63C71E2B0C74A00 /* Models */,
@@ -422,7 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = DIYAI/Resources/Info.plist;
+				INFOPLIST_FILE = DIYAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = DIYAI/Resources/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -510,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = DIYAI/Resources/Info.plist;
+				INFOPLIST_FILE = DIYAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = DIYAI/Resources/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
